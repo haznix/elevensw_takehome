@@ -1,0 +1,406 @@
+# 100-device fleet, mixed chaos profiles. Regenerate with:
+#   python simulator/generate_fleet.py
+org: acme
+org_name: Acme Hospitality
+poll_interval_s: 10.0
+devices:
+  - id: d-001
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-002
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-003
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-004
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-005
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-006
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-007
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-008
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-009
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-010
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-011
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-012
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-013
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-014
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-015
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-016
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-017
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-018
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-019
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-020
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-021
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-022
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-023
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-024
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-025
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-026
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-027
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-028
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-029
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-030
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-031
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-032
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-033
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-034
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-035
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-036
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-037
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-038
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-039
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-040
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-041
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-042
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-043
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-044
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-045
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-046
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-047
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-048
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-049
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-050
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-051
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-052
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-053
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-054
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-055
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-056
+    vendor: mikrotik
+    network_id: lobby
+    profile: well_behaved
+  - id: d-057
+    vendor: cisco
+    network_id: guest
+    profile: well_behaved
+  - id: d-058
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: well_behaved
+  - id: d-059
+    vendor: aruba
+    network_id: rooftop
+    profile: well_behaved
+  - id: d-060
+    vendor: ruckus
+    network_id: garage
+    profile: well_behaved
+  - id: d-061
+    vendor: mikrotik
+    network_id: lobby
+    profile: flaky
+  - id: d-062
+    vendor: cisco
+    network_id: guest
+    profile: flaky
+  - id: d-063
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: flaky
+  - id: d-064
+    vendor: aruba
+    network_id: rooftop
+    profile: flaky
+  - id: d-065
+    vendor: ruckus
+    network_id: garage
+    profile: flaky
+  - id: d-066
+    vendor: mikrotik
+    network_id: lobby
+    profile: flaky
+  - id: d-067
+    vendor: cisco
+    network_id: guest
+    profile: flaky
+  - id: d-068
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: flaky
+  - id: d-069
+    vendor: aruba
+    network_id: rooftop
+    profile: flaky
+  - id: d-070
+    vendor: ruckus
+    network_id: garage
+    profile: flaky
+  - id: d-071
+    vendor: mikrotik
+    network_id: lobby
+    profile: flaky
+  - id: d-072
+    vendor: cisco
+    network_id: guest
+    profile: flaky
+  - id: d-073
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: flaky
+  - id: d-074
+    vendor: aruba
+    network_id: rooftop
+    profile: flaky
+  - id: d-075
+    vendor: ruckus
+    network_id: garage
+    profile: flaky
+  - id: d-076
+    vendor: mikrotik
+    network_id: lobby
+    profile: flaky
+  - id: d-077
+    vendor: cisco
+    network_id: guest
+    profile: flaky
+  - id: d-078
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: flaky
+  - id: d-079
+    vendor: aruba
+    network_id: rooftop
+    profile: flaky
+  - id: d-080
+    vendor: ruckus
+    network_id: garage
+    profile: flaky
+  - id: d-081
+    vendor: mikrotik
+    network_id: lobby
+    profile: flaky
+  - id: d-082
+    vendor: cisco
+    network_id: guest
+    profile: flaky
+  - id: d-083
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: flaky
+  - id: d-084
+    vendor: aruba
+    network_id: rooftop
+    profile: flaky
+  - id: d-085
+    vendor: ruckus
+    network_id: garage
+    profile: flaky
+  - id: d-086
+    vendor: mikrotik
+    network_id: lobby
+    profile: often_offline
+  - id: d-087
+    vendor: cisco
+    network_id: guest
+    profile: often_offline
+  - id: d-088
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: often_offline
+  - id: d-089
+    vendor: aruba
+    network_id: rooftop
+    profile: often_offline
+  - id: d-090
+    vendor: ruckus
+    network_id: garage
+    profile: often_offline
+  - id: d-091
+    vendor: mikrotik
+    network_id: lobby
+    profile: often_offline
+  - id: d-092
+    vendor: cisco
+    network_id: guest
+    profile: often_offline
+  - id: d-093
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: often_offline
+  - id: d-094
+    vendor: aruba
+    network_id: rooftop
+    profile: often_offline
+  - id: d-095
+    vendor: ruckus
+    network_id: garage
+    profile: often_offline
+  - id: d-096
+    vendor: mikrotik
+    network_id: lobby
+    profile: silent_corruptor
+  - id: d-097
+    vendor: cisco
+    network_id: guest
+    profile: silent_corruptor
+  - id: d-098
+    vendor: ubiquiti
+    network_id: back-of-house
+    profile: silent_corruptor
+  - id: d-099
+    vendor: aruba
+    network_id: rooftop
+    profile: silent_corruptor
+  - id: d-100
+    vendor: ruckus
+    network_id: garage
+    profile: broken
